@@ -130,6 +130,8 @@ if __name__ == '__main__':
     lista.append(60)
     lista.append(10)
     lista.append(24)
+
+
 ''' 
     TIPOS DE FUNÇÕES DE BUSCAS
 
@@ -191,3 +193,20 @@ lista.remove(80)
 
 
 '''
+
+""" 
+
+Uso do POP para retirar um elemento de uma lista para colocar em outra. 
+O seu uso é víavel em ocasiões específicas, como lixeira.
+x = a.pop(3)
+print('a: '+str(a)')
+print('x: '+str(x)')
+
+x = lixeira
+a = lista
+pop = função
+
+lixeira = lista.pop(index)
+print('a: '+str(a)')
+print('x: '+str(x)')
+"""
